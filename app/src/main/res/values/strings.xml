@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">BucketList</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="add">Add</string>
+    <string name="favorites">Favorites</string>
+    <string name="personal">Personal</string>
+    <string name="camera">Camera</string>
+    <string name="live">Live</string>
+    <string name="chat">Chat</string>
+    <string name="description_user_profile">description_user_profile</string>
+    <string name="description_feed_actions">description_feed_actions</string>
+    <string name="description_feed_photo">description_feed_photo</string>
+    <string name="description_user_story">description_user_story</string>
+    <string name="stories">stories</string>
+    <string name="watch_all">watch_all</string>
+    <string name="visited">Visited</string>
+    <string name="todo">TODO</string>
+    <string name="done">Done</string>
+    <string name="account">Account</string>
+    <string name="add_to_places_to_visit">Add to places to visit</string>
+    <string name="add_to_places_visited">Add to places visited</string>
+    <string name="logo">logo</string>
+    <string name="choose_image">Choose image</string>
+    <string name="upload_image">Upload image</string>
+    <string name="description">Description</string>
+    <string name="country">Country</string>
+    <string name="place">Place</string>
+    <string name="upload_button">Upload Button</string>
+    <string name="choose_button">Choose Button</string>
+    <string name="add_to_places_to_visit_list"><![CDATA[Add to places to visit list >>]]></string>
+    <string name="add_to_places_already_visited_list"><![CDATA[Add to places already visited list >>]]></string>
+</resources>
