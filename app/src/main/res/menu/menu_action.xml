@@ -4,27 +4,27 @@
     xmlns:android="http://schemas.android.com/apk/res/android" >
 
     <item
-        android:id="@+id/action_photo"
+        android:id="@+id/action_add"
         android:orderInCategory="100"
-        android:icon="@drawable/ic_camera"
+        android:icon="@drawable/ic_more"
         android:title="@string/camera"
         app:showAsAction="always"
         tools:ignore="AlwaysShowAction"/>
 
     <item
-        android:id="@+id/action_live"
+        android:id="@+id/action_map"
         android:orderInCategory="100"
-        android:icon="@drawable/ic_live"
-        android:title="@string/live"
+        android:icon="@drawable/ic_places"
+        android:title="@string/map"
         app:showAsAction="always"
         tools:ignore="AlwaysShowAction" />
 
-    <item
+    <!--<item
         android:id="@+id/action_chat"
         android:orderInCategory="100"
         android:icon="@drawable/ic_send"
         android:title="@string/chat"
         app:showAsAction="always"
-        tools:ignore="AlwaysShowAction"/>
+        tools:ignore="AlwaysShowAction"/>-->
 
 </menu>

@@ -32,7 +32,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".ActivityMaps"/>
+            android:name=".MapsActivity"/>
+
+        <activity
+            android:name=".AddActivity"/>
 
     </application>
 

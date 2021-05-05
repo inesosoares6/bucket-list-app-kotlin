@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.widget.Button
-import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.Fragment
 import com.google.android.material.bottomnavigation.BottomNavigationView
@@ -17,7 +15,8 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val homeFragment = HomeFragment()
-        val addFragment = AddFragment()
+        val chatFragment = ChatFragment()
+        //val addFragment = AddFragment()
         val favoritesFragment = FavoritesFragment()
         val personFragment = PersonFragment()
         val visitedFragment = VisitedFragment()
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
         bottomNavigationView.setOnNavigationItemSelectedListener {
             when(it.itemId){
                 R.id.nav_home->setCurrentFragment(homeFragment)
-                R.id.nav_more->setCurrentFragment(addFragment)
+                R.id.nav_chat->setCurrentFragment(chatFragment)
                 R.id.nav_favorites->setCurrentFragment(favoritesFragment)
                 R.id.nav_person->setCurrentFragment(personFragment)
                 R.id.nav_search->setCurrentFragment(visitedFragment)
@@ -44,19 +43,20 @@ class MainActivity : AppCompatActivity() {
 
     override fun onOptionsItemSelected(item: MenuItem): Boolean {
         return when (item.itemId) {
-            R.id.action_photo -> {
-                Toast.makeText(applicationContext, "click on photo", Toast.LENGTH_LONG).show()
-                return true
-            }
-            R.id.action_live ->{
-                val intent = Intent(applicationContext, ActivityMaps::class.java)
+            R.id.action_add -> {
+                val intent = Intent(applicationContext, AddActivity::class.java)
                 startActivity(intent)
                 return true
             }
-            R.id.action_chat ->{
-                Toast.makeText(applicationContext, "click on chat", Toast.LENGTH_LONG).show()
+            R.id.action_map ->{
+                val intent = Intent(applicationContext, MapsActivity::class.java)
+                startActivity(intent)
                 return true
             }
+            /*R.id.action_chat ->{
+                Toast.makeText(applicationContext, "click on chat", Toast.LENGTH_LONG).show()
+                return true
+            }*/
             else -> super.onOptionsItemSelected(item)
         }
     }
