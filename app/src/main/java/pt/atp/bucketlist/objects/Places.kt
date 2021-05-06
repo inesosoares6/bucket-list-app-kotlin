@@ -7,11 +7,12 @@ import pt.atp.bucketlist.model.Place
 object Places {
 
     val placesToVisit = listOf(
-            Place("Ireland", "Road Trip" , "",  R.drawable.irelandtrip, R.drawable.ireland),
+            Place("Ireland", "Road Trip" , "Dublin - Belfast (Giant's Causeway) - Sligo - Galway - Cork",  R.drawable.irelandtrip, R.drawable.ireland),
             Place("Scotland", "North Coast 500", "", R.drawable.northcoast, R.drawable.scotland),
             Place("Chile", "Patagonia", "", R.drawable.patagonia, R.drawable.chile),
-            Place("Norway", "Road Trip", "", R.drawable.norwaytrip, R.drawable.norway),
-    )
+            Place("Norway", "Road Trip", "Strandvik - Balestrand - Loen - Andalsnes (Trollstigen) - Hoddevik - Naustdal", R.drawable.norwaytrip, R.drawable.norway),
+            Place("Switzerland", "RoadTrip", "Fribourg - Ticino - Zermatt - Schwyzer Alpen - Interlaken - Glarus - Appenzell Innerrhoden - Grindelwald - Swiss Alps", R.drawable.swissalps, R.drawable.switzerland),
+            )
 
     val countriesToVisit = listOf(
             Country("Ireland", R.drawable.irelandtrip),
