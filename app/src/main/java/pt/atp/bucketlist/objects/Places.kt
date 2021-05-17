@@ -19,6 +19,7 @@ object Places {
             Country("Scotland", R.drawable.northcoast),
             Country("Chile", R.drawable.patagonia),
             Country("Norway", R.drawable.norwaytrip),
+            Country("Switzerland", R.drawable.swissalps),
     )
 
     val placesVisited = listOf(
