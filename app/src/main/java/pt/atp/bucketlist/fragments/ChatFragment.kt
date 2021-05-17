@@ -17,7 +17,7 @@ import com.google.firebase.firestore.FirebaseFirestore
 
 private const val TAG = "ChatFragment"
 
-class ChatFragment : Fragment(R.layout.fragment_chat) {
+class ChatFragment : Fragment() { //R.layout.fragment_chat
 
     private lateinit var binding: FragmentChatBinding
 
@@ -95,7 +95,7 @@ class ChatFragment : Fragment(R.layout.fragment_chat) {
 
     private fun sendMessage(content: String) {
         val message = hashMapOf(
-                "username" to "Inês Soares", //deviceName(),
+                "username" to deviceName(), //deviceName(),
                 "content" to content,
                 "timestamp" to "${System.currentTimeMillis()}"
         )
