@@ -33,4 +33,11 @@
     <string name="input_message">Input message</string>
     <string name="map">Map</string>
     <string name="about">About</string>
+    <string name="site">https://inesosoares6.github.io/</string>
+    <string name="porto_portugal">Porto, Portugal</string>
+    <string name="ines_soares">Inês Soares</string>
+    <string name="cities">Cities</string>
+    <string name="countries">Countries</string>
+    <string name="continents">Continents</string>
+    <string name="ines">Inês</string>
 </resources>

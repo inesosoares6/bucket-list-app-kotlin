@@ -11,4 +11,7 @@
     <color name="colorPrimary">@color/dark_red</color>
     <color name="colorPrimaryDark">@color/dark_red</color>
     <color name="colorAccent">#03DAC5</color>
+
+    <color name="grey">#bfbfbf</color>
+    <color name="link_blue">#005ce6</color>
 </resources>
