@@ -7,12 +7,16 @@ import pt.atp.bucketlist.model.Place
 object Places {
 
     val placesToVisit = listOf(
-            Place("Ireland", "Road Trip" , "Dublin - Belfast (Giant's Causeway) - Sligo (Slieve League) - Galway (Moher Cliffs) - Cork",  R.drawable.irelandtrip, R.drawable.ireland),
+            Place("Ireland", "Road Trip" , "Causeway Coastal Route & Wild Atlantic Way",  R.drawable.irelandtrip, R.drawable.ireland),
             Place("Scotland", "North Coast 500", "Black Isle - Caithness - Easter Ross - Inverness-Shire - Sutherland - Wester Ross", R.drawable.northcoast, R.drawable.scotland),
             Place("Chile - Argentina", "Patagonia", "Carretera Austral - El Chalten - Perito Moreno - Torres del Paine", R.drawable.patagonia, R.drawable.chile),
-            Place("Norway", "Road Trip", "Strandvik (Stegastein lookout) - Balestrand - Loen - Andalsnes (Trollstigen) - Hoddevik - Naustdal", R.drawable.norwaytrip, R.drawable.norway),
+            Place("Norway", "Road Trip", "Strandvik (Stegastein lookout) - Balestrand - Loen - Andalsnes (Trollstigen) - Atlantic Ocean Road - Hoddevik - Naustdal", R.drawable.norwaytrip, R.drawable.norway),
             Place("Switzerland", "RoadTrip", "Fribourg - Ticino - Zermatt - Schwyzer Alpen - Interlaken - Glarus - Appenzell Innerrhoden - Grindelwald - Swiss Alps", R.drawable.swissalps, R.drawable.switzerland),
             Place("Japan", "RoadTrip", "Tokyo - Kyoto - Osaka - Hiroshima - Okinawa", R.drawable.japan, R.drawable.japanflag),
+            Place("Canada", "Cabot Trail", "Cape Breton Island & Icefields Parkway", R.drawable.cabottrail, R.drawable.canada),
+            Place("USA", "Road Trips", "Yosemite National Park (Tioga Pass) - Olympic Peninsula Loop - Going-To-The-Sun Road - Blue Ridge Parkway - Big Sur", R.drawable.tiogapass, R.drawable.usa),
+            Place("Austria", "Road Trip", "Grossglockner Hochalpenstrasse", R.drawable.grossglockner, R.drawable.austria),
+            Place("Australia", "Road Trips", "Pacific Highway & Great Ocean Road", R.drawable.pacifichighway, R.drawable.australia),
             )
 
     val countriesToVisit = listOf(
@@ -22,6 +26,10 @@ object Places {
             Country("Norway", R.drawable.norwaytrip),
             Country("Switzerland", R.drawable.swissalps),
             Country("Japan", R.drawable.japan),
+            Country("Canada", R.drawable.cabottrail),
+            Country("USA", R.drawable.tiogapass),
+            Country("Austria", R.drawable.grossglockner),
+            Country("Australia", R.drawable.pacifichighway),
     )
 
     val placesVisited = listOf(
