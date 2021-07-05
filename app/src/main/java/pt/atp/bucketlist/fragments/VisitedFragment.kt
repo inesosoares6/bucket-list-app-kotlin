@@ -11,6 +11,7 @@ import androidx.recyclerview.widget.RecyclerView
 import pt.atp.bucketlist.R
 import pt.atp.bucketlist.model.Country
 import pt.atp.bucketlist.model.FeedAdapter
+import pt.atp.bucketlist.model.Place
 import pt.atp.bucketlist.model.StoryAdapter
 import pt.atp.bucketlist.objects.Places
 

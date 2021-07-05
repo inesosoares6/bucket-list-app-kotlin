@@ -8,10 +8,11 @@ object Places {
 
     val placesToVisit = listOf(
             Place("Ireland", "Road Trip" , "Dublin - Belfast (Giant's Causeway) - Sligo (Slieve League) - Galway (Moher Cliffs) - Cork",  R.drawable.irelandtrip, R.drawable.ireland),
-            Place("Scotland", "North Coast 500", "", R.drawable.northcoast, R.drawable.scotland),
-            Place("Chile", "Patagonia", "", R.drawable.patagonia, R.drawable.chile),
-            Place("Norway", "Road Trip", "Strandvik - Balestrand - Loen - Andalsnes (Trollstigen) - Hoddevik - Naustdal", R.drawable.norwaytrip, R.drawable.norway),
+            Place("Scotland", "North Coast 500", "Black Isle - Caithness - Easter Ross - Inverness-Shire - Sutherland - Wester Ross", R.drawable.northcoast, R.drawable.scotland),
+            Place("Chile - Argentina", "Patagonia", "Carretera Austral - El Chalten - Perito Moreno - Torres del Paine", R.drawable.patagonia, R.drawable.chile),
+            Place("Norway", "Road Trip", "Strandvik (Stegastein lookout) - Balestrand - Loen - Andalsnes (Trollstigen) - Hoddevik - Naustdal", R.drawable.norwaytrip, R.drawable.norway),
             Place("Switzerland", "RoadTrip", "Fribourg - Ticino - Zermatt - Schwyzer Alpen - Interlaken - Glarus - Appenzell Innerrhoden - Grindelwald - Swiss Alps", R.drawable.swissalps, R.drawable.switzerland),
+            Place("Japan", "RoadTrip", "Tokyo - Kyoto - Osaka - Hiroshima - Okinawa", R.drawable.japan, R.drawable.japanflag),
             )
 
     val countriesToVisit = listOf(
@@ -20,6 +21,7 @@ object Places {
             Country("Chile", R.drawable.patagonia),
             Country("Norway", R.drawable.norwaytrip),
             Country("Switzerland", R.drawable.swissalps),
+            Country("Japan", R.drawable.japan),
     )
 
     val placesVisited = listOf(

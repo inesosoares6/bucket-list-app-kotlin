@@ -81,6 +81,7 @@ class MapsActivity : AppCompatActivity(), OnMapReadyCallback {
             Marker("Ireland", LatLng(53.4,-8.3)),
             Marker("Scotland", LatLng(56.0,-4.0)),
             Marker("Patagonia", LatLng(-46.7,-74.6)),
+            Marker("Japan", LatLng(36.2,138.25)),
             Marker("Norway", LatLng(60.47,8.5))
         )
 
