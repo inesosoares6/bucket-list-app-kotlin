@@ -16,9 +16,7 @@ class MainActivity : AppCompatActivity() {
 
         val homeFragment = HomeFragment()
         val chatFragment = ChatFragment()
-        //val addFragment = AddFragment()
         val favoritesFragment = FavoritesFragment()
-        val personFragment = PersonFragment()
         val visitedFragment = VisitedFragment()
 
         setCurrentFragment(homeFragment)
@@ -28,7 +26,6 @@ class MainActivity : AppCompatActivity() {
                 R.id.nav_home->setCurrentFragment(homeFragment)
                 R.id.nav_chat->setCurrentFragment(chatFragment)
                 R.id.nav_favorites->setCurrentFragment(favoritesFragment)
-                R.id.nav_person->setCurrentFragment(personFragment)
                 R.id.nav_search->setCurrentFragment(visitedFragment)
             }
             true
@@ -53,10 +50,6 @@ class MainActivity : AppCompatActivity() {
                 startActivity(intent)
                 return true
             }
-            /*R.id.action_chat ->{
-                Toast.makeText(applicationContext, "click on chat", Toast.LENGTH_LONG).show()
-                return true
-            }*/
             else -> super.onOptionsItemSelected(item)
         }
     }

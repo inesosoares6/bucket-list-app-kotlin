@@ -70,4 +70,22 @@ object Places {
             Country("UK", R.drawable.london),
     )
 
+        val favourites = listOf(
+                Country("Zakopane", R.drawable.zakopane),
+                Country("Berlin", R.drawable.berlin),
+                Country("Salzburg",  R.drawable.salzburg),
+                Country("Munich", R.drawable.munich),
+                Country("Prague", R.drawable.prague),
+                Country("Budapest", R.drawable.budapest),
+                Country("Wroclaw", R.drawable.wroclaw),
+                Country("Utrecht", R.drawable.utrecht),
+                Country("Amsterdam", R.drawable.amsterdam),
+                Country("Gent", R.drawable.gent),
+                Country("Brugge", R.drawable.brugge),
+                Country("Antwerp", R.drawable.antwerp),
+                Country("Route 66", R.drawable.route66),
+                Country("Paris", R.drawable.paris),
+                Country("London",  R.drawable.london),
+        )
+
 }

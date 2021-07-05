@@ -6,7 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <!-- Stories -->
     <LinearLayout
         android:id="@+id/stories_container"
         android:layout_width="match_parent"
@@ -18,23 +17,6 @@
         android:layout_marginRight="16dp"
         android:orientation="horizontal">
 
-        <!--<TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:text="@string/stories"
-            android:textSize="15sp"
-            android:fontFamily="sans-serif"/>
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="0"
-            android:text="@string/watch_all"
-            android:textSize="15sp"
-            android:fontFamily="sans-serif"
-            app:drawableLeftCompat="@drawable/ic_play" />-->
-
     </LinearLayout>
 
     <androidx.recyclerview.widget.RecyclerView
@@ -42,9 +24,6 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/stories_container"/>
-
-
-    <!-- Feed -->
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_feed"
